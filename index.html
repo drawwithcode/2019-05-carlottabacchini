@@ -4,42 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.min.js"></script>
-    <script src="p5.sound.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <script src="addons/p5.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="addons/p5.speech.js"></script>
     <script src="sketch.js"></script>
     <style>
       #param {
         position: absolute;
         left: 2%;
         top: 3%;
-        background: rgba(110, 230, 165,0.3);
+        background: rgba(16, 15, 34,0.8);
         padding: 1%;
-        border: 2px solid rgb(110, 230, 165);
+        border: 2px solid rgb(16, 15, 34);
         border-radius: 5px;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
         font-size: 18px;
-        color: white;
+        color: #22ff66;
       }
       #instructions {
         position: absolute;
         RIGHT: 2%;
         top: 3%;
         width: 150px;
-        background: rgba(110, 230, 165,0.3);
+        background: rgba(16, 15, 34,0.8);
         padding: 1%;
-        border: 2px solid rgb(110, 230, 165);
+        border: 2px solid rgb(16, 15, 34);
         border-radius: 5px;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
         font-size: 18px;
         text-align: right;
-        color: white;
+        color: #22ff66;
       }
     </style>
   </head>
   <body>
     <span id="param"></span>
     <span id="instructions">
-      PRESS R, G OR B AND ARROW UP AND DOWN TO CHANGE THE COLOR OF THE OVERLAY.
+      PRESS R, G OR B AND ARROW UP/DOWN TO CHANGE THE FILTE COLOR.
       </p>MOVE THE MOUSE TO LOOK AROUND
     </span>
   </body>
