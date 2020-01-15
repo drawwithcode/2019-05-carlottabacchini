@@ -144,3 +144,7 @@ function keyPressed() {
     document.getElementById("param").style.visibility = "visible";
 }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
